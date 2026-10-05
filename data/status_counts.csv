@@ -1,0 +1,6 @@
+Inventory Status,Product Store Count,Percentage
+Critical,50,50.0
+Low Stock,50,50.0
+Healthy,0,0.0
+Overstock Candidate,0,0.0
+No Demand,0,0.0

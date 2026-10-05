@@ -1,0 +1,101 @@
+Product ID,Store ID,Category,Avg Inventory,Avg Daily Demand,Days of Inventory,Inventory Status,Suggested Reorder Qty
+P0001,S001,Electronics,245.21,92.81,2.64,Critical,404.5
+P0001,S002,Groceries,394.29,120.92,3.26,Low Stock,452.1
+P0001,S003,Toys,206.34,91.44,2.26,Critical,433.7
+P0001,S004,Groceries,563.97,122.98,4.59,Low Stock,296.9
+P0001,S005,Groceries,248.97,119.8,2.08,Critical,589.6
+P0002,S001,Clothing,152.03,124.64,1.22,Critical,720.5
+P0002,S002,Toys,250.73,93.94,2.67,Critical,406.8
+P0002,S003,Groceries,437.34,123.2,3.55,Low Stock,425.0
+P0002,S004,Groceries,266.48,122.66,2.17,Critical,592.1
+P0002,S005,Electronics,322.57,95.89,3.36,Low Stock,348.7
+P0003,S001,Clothing,570.42,123.34,4.62,Low Stock,292.9
+P0003,S002,Groceries,381.89,118.43,3.22,Low Stock,447.1
+P0003,S003,Electronics,146.85,110.52,1.33,Critical,626.8
+P0003,S004,Furniture,304.83,74.74,4.08,Low Stock,218.4
+P0003,S005,Toys,147.32,92.95,1.59,Critical,503.3
+P0004,S001,Electronics,205.91,93.06,2.21,Critical,445.5
+P0004,S002,Groceries,411.07,118.12,3.48,Low Stock,415.7
+P0004,S003,Groceries,391.79,120.09,3.26,Low Stock,448.9
+P0004,S004,Groceries,433.94,122.42,3.54,Low Stock,423.0
+P0004,S005,Groceries,159.04,123.29,1.29,Critical,704.0
+P0005,S001,Groceries,587.84,120.32,4.89,Low Stock,254.4
+P0005,S002,Electronics,505.91,96.29,5.25,Low Stock,168.1
+P0005,S003,Toys,465.8,91.59,5.09,Low Stock,175.4
+P0005,S004,Clothing,135.36,109.68,1.23,Critical,632.4
+P0005,S005,Groceries,269.61,119.71,2.25,Critical,568.4
+P0006,S001,Toys,301.16,91.98,3.27,Low Stock,342.7
+P0006,S002,Clothing,123.72,108.99,1.14,Critical,639.2
+P0006,S003,Toys,137.19,93.21,1.47,Critical,515.2
+P0006,S004,Groceries,263.26,121.02,2.18,Critical,583.9
+P0006,S005,Groceries,589.97,123.42,4.78,Low Stock,274.0
+P0007,S001,Groceries,584.48,120.7,4.84,Low Stock,260.4
+P0007,S002,Toys,366.75,91.87,3.99,Low Stock,276.3
+P0007,S003,Groceries,559.37,122.18,4.58,Low Stock,295.9
+P0007,S004,Groceries,546.49,120.28,4.54,Low Stock,295.5
+P0007,S005,Groceries,277.21,120.09,2.31,Critical,563.4
+P0008,S001,Electronics,106.99,93.36,1.15,Critical,546.5
+P0008,S002,Groceries,139.52,121.61,1.15,Critical,711.8
+P0008,S003,Clothing,254.13,109.25,2.33,Critical,510.6
+P0008,S004,Furniture,108.95,75.11,1.45,Critical,416.8
+P0008,S005,Groceries,147.56,122.43,1.21,Critical,709.5
+P0009,S001,Clothing,166.42,121.73,1.37,Critical,685.7
+P0009,S002,Groceries,282.96,120.72,2.34,Critical,562.1
+P0009,S003,Groceries,130.91,121.18,1.08,Critical,717.4
+P0009,S004,Clothing,384.42,108.24,3.55,Low Stock,373.3
+P0009,S005,Groceries,396.81,120.66,3.29,Low Stock,447.8
+P0010,S001,Furniture,350.8,72.72,4.82,Low Stock,158.2
+P0010,S002,Groceries,143.31,122.72,1.17,Critical,715.8
+P0010,S003,Groceries,149.13,121.05,1.23,Critical,698.2
+P0010,S004,Groceries,520.7,120.07,4.34,Low Stock,319.8
+P0010,S005,Groceries,388.8,118.79,3.27,Low Stock,442.7
+P0011,S001,Furniture,209.58,74.25,2.82,Critical,310.2
+P0011,S002,Groceries,375.76,119.29,3.15,Low Stock,459.3
+P0011,S003,Electronics,240.89,106.94,2.25,Critical,507.7
+P0011,S004,Clothing,495.53,110.39,4.49,Low Stock,277.2
+P0011,S005,Electronics,406.4,92.77,4.38,Low Stock,243.0
+P0012,S001,Groceries,287.78,119.98,2.4,Critical,552.1
+P0012,S002,Electronics,477.76,92.62,5.16,Low Stock,170.6
+P0012,S003,Furniture,193.94,73.91,2.62,Critical,323.4
+P0012,S004,Electronics,111.09,96.07,1.16,Critical,561.4
+P0012,S005,Furniture,378.9,74.29,5.1,Low Stock,141.1
+P0013,S001,Toys,128.69,92.79,1.39,Critical,520.9
+P0013,S002,Groceries,394.14,122.88,3.21,Low Stock,466.0
+P0013,S003,Groceries,559.67,121.7,4.6,Low Stock,292.2
+P0013,S004,Groceries,427.72,121.64,3.52,Low Stock,423.8
+P0013,S005,Groceries,403.04,121.11,3.33,Low Stock,444.7
+P0014,S001,Groceries,406.84,117.99,3.45,Low Stock,419.1
+P0014,S002,Electronics,439.64,92.96,4.73,Low Stock,211.1
+P0014,S003,Groceries,395.27,119.4,3.31,Low Stock,440.5
+P0014,S004,Furniture,177.9,74.27,2.4,Critical,342.0
+P0014,S005,Furniture,279.86,74.77,3.74,Low Stock,243.5
+P0015,S001,Toys,126.69,91.25,1.39,Critical,512.1
+P0015,S002,Clothing,477.26,107.44,4.44,Low Stock,274.8
+P0015,S003,Groceries,527.69,119.18,4.43,Low Stock,306.6
+P0015,S004,Furniture,301.04,73.7,4.08,Low Stock,214.9
+P0015,S005,Groceries,272.21,120.89,2.25,Critical,574.0
+P0016,S001,Groceries,379.19,122.18,3.1,Low Stock,476.0
+P0016,S002,Clothing,227.48,108.33,2.1,Critical,530.8
+P0016,S003,Electronics,261.91,106.49,2.46,Critical,483.5
+P0016,S004,Furniture,241.29,71.9,3.36,Low Stock,262.0
+P0016,S005,Toys,339.68,94.88,3.58,Low Stock,324.5
+P0017,S001,Toys,109.99,94.16,1.17,Critical,549.1
+P0017,S002,Toys,362.2,92.93,3.9,Low Stock,288.3
+P0017,S003,Furniture,370.62,72.47,5.11,Low Stock,136.7
+P0017,S004,Clothing,149.81,110.31,1.36,Critical,622.4
+P0017,S005,Toys,133.24,91.47,1.46,Critical,507.1
+P0018,S001,Groceries,168.99,121.91,1.39,Critical,684.4
+P0018,S002,Clothing,127.91,106.37,1.2,Critical,616.7
+P0018,S003,Furniture,384.58,73.87,5.21,Low Stock,132.5
+P0018,S004,Furniture,111.34,71.68,1.55,Critical,390.4
+P0018,S005,Clothing,136.35,122.5,1.11,Critical,721.1
+P0019,S001,Furniture,102.12,73.48,1.39,Critical,412.2
+P0019,S002,Clothing,489.37,109.07,4.49,Low Stock,274.1
+P0019,S003,Groceries,147.57,122.05,1.21,Critical,706.8
+P0019,S004,Clothing,144.58,111.99,1.29,Critical,639.3
+P0019,S005,Furniture,178.79,72.82,2.46,Critical,331.0
+P0020,S001,Furniture,362.01,73.63,4.92,Low Stock,153.4
+P0020,S002,Furniture,268.62,73.29,3.66,Low Stock,244.4
+P0020,S003,Clothing,478.86,109.66,4.37,Low Stock,288.7
+P0020,S004,Furniture,176.17,73.55,2.4,Critical,338.7
+P0020,S005,Toys,131.76,92.04,1.43,Critical,512.5

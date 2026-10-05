@@ -1,0 +1,6 @@
+Store ID,Region,Units Sold,Demand,Units Ordered,Avg Inventory,Fulfillment Rate,Critical,Low Stock,Healthy,Overstock Candidate,No Demand,Risk Count,Product Store Pairs,Avg Days of Inventory
+S001,North,1318134,1547573,1321799,277.66,85.17,12,8,0,0,0,20,20,2.72
+S005,North,1362812,1607085,1365776,280.4,84.8,11,9,0,0,0,20,20,2.71
+S003,East,1375613,1618324,1379954,321.99,85.0,10,10,0,0,0,20,20,3.09
+S004,West,1308191,1529651,1312091,293.24,85.52,10,10,0,0,0,20,20,2.86
+S002,South,1386126,1625471,1391269,332.01,85.28,7,13,0,0,0,20,20,3.19

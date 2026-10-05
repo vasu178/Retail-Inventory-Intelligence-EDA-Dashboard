@@ -1,0 +1,559 @@
+{
+  "scenarios": [
+    {
+      "id": "all",
+      "filters": {},
+      "kpis": {
+        "unitsSold": 6750876,
+        "demand": 7928104,
+        "unitsOrdered": 6770889,
+        "avgInventory": 301.062842,
+        "fulfillmentRate": 85.151204,
+        "tradingDays": 760,
+        "dailyRows": 76000
+      },
+      "statusCounts": {
+        "Critical": 50,
+        "Low Stock": 50,
+        "Healthy": 0,
+        "Overstock Candidate": 0,
+        "No Demand": 0
+      },
+      "totalPairs": 100,
+      "topCategory": {
+        "Category": "Groceries",
+        "Units Sold": 3127335.0
+      },
+      "topStore": {
+        "Store ID": "S002",
+        "Units Sold": 1386126.0
+      }
+    },
+    {
+      "id": "store-s002",
+      "filters": {
+        "store": "S002"
+      },
+      "kpis": {
+        "unitsSold": 1386126,
+        "demand": 1625471,
+        "unitsOrdered": 1391269,
+        "avgInventory": 332.014737,
+        "fulfillmentRate": 85.275345,
+        "tradingDays": 760,
+        "dailyRows": 15200
+      },
+      "statusCounts": {
+        "Critical": 7,
+        "Low Stock": 13,
+        "Healthy": 0,
+        "Overstock Candidate": 0,
+        "No Demand": 0
+      },
+      "totalPairs": 20,
+      "topCategory": {
+        "Category": "Groceries",
+        "Units Sold": 620053.0
+      },
+      "topStore": {
+        "Store ID": "S002",
+        "Units Sold": 1386126.0
+      },
+      "pairs": [
+        {
+          "product": "P0001",
+          "store": "S002",
+          "category": "Groceries",
+          "avgInventory": 394.290789,
+          "avgDailyDemand": 120.919737,
+          "daysOfInventory": 3.260765,
+          "status": "Low Stock",
+          "suggestedReorderQty": 452.147368
+        },
+        {
+          "product": "P0002",
+          "store": "S002",
+          "category": "Toys",
+          "avgInventory": 250.734211,
+          "avgDailyDemand": 93.938158,
+          "daysOfInventory": 2.669141,
+          "status": "Critical",
+          "suggestedReorderQty": 406.832895
+        },
+        {
+          "product": "P0003",
+          "store": "S002",
+          "category": "Groceries",
+          "avgInventory": 381.892105,
+          "avgDailyDemand": 118.427632,
+          "daysOfInventory": 3.224688,
+          "status": "Low Stock",
+          "suggestedReorderQty": 447.101316
+        },
+        {
+          "product": "P0004",
+          "store": "S002",
+          "category": "Groceries",
+          "avgInventory": 411.068421,
+          "avgDailyDemand": 118.115789,
+          "daysOfInventory": 3.480216,
+          "status": "Low Stock",
+          "suggestedReorderQty": 415.742105
+        },
+        {
+          "product": "P0005",
+          "store": "S002",
+          "category": "Electronics",
+          "avgInventory": 505.913158,
+          "avgDailyDemand": 96.293421,
+          "daysOfInventory": 5.25387,
+          "status": "Low Stock",
+          "suggestedReorderQty": 168.140789
+        },
+        {
+          "product": "P0006",
+          "store": "S002",
+          "category": "Clothing",
+          "avgInventory": 123.715789,
+          "avgDailyDemand": 108.986842,
+          "daysOfInventory": 1.135144,
+          "status": "Critical",
+          "suggestedReorderQty": 639.192105
+        },
+        {
+          "product": "P0007",
+          "store": "S002",
+          "category": "Toys",
+          "avgInventory": 366.751316,
+          "avgDailyDemand": 91.865789,
+          "daysOfInventory": 3.992251,
+          "status": "Low Stock",
+          "suggestedReorderQty": 276.309211
+        },
+        {
+          "product": "P0008",
+          "store": "S002",
+          "category": "Groceries",
+          "avgInventory": 139.518421,
+          "avgDailyDemand": 121.611842,
+          "daysOfInventory": 1.147244,
+          "status": "Critical",
+          "suggestedReorderQty": 711.764474
+        },
+        {
+          "product": "P0009",
+          "store": "S002",
+          "category": "Groceries",
+          "avgInventory": 282.957895,
+          "avgDailyDemand": 120.715789,
+          "daysOfInventory": 2.344001,
+          "status": "Critical",
+          "suggestedReorderQty": 562.052632
+        },
+        {
+          "product": "P0010",
+          "store": "S002",
+          "category": "Groceries",
+          "avgInventory": 143.313158,
+          "avgDailyDemand": 122.723684,
+          "daysOfInventory": 1.167771,
+          "status": "Critical",
+          "suggestedReorderQty": 715.752632
+        },
+        {
+          "product": "P0011",
+          "store": "S002",
+          "category": "Groceries",
+          "avgInventory": 375.757895,
+          "avgDailyDemand": 119.288158,
+          "daysOfInventory": 3.150002,
+          "status": "Low Stock",
+          "suggestedReorderQty": 459.259211
+        },
+        {
+          "product": "P0012",
+          "store": "S002",
+          "category": "Electronics",
+          "avgInventory": 477.755263,
+          "avgDailyDemand": 92.615789,
+          "daysOfInventory": 5.158465,
+          "status": "Low Stock",
+          "suggestedReorderQty": 170.555263
+        },
+        {
+          "product": "P0013",
+          "store": "S002",
+          "category": "Groceries",
+          "avgInventory": 394.143421,
+          "avgDailyDemand": 122.884211,
+          "daysOfInventory": 3.207437,
+          "status": "Low Stock",
+          "suggestedReorderQty": 466.046053
+        },
+        {
+          "product": "P0014",
+          "store": "S002",
+          "category": "Electronics",
+          "avgInventory": 439.643421,
+          "avgDailyDemand": 92.963158,
+          "daysOfInventory": 4.729222,
+          "status": "Low Stock",
+          "suggestedReorderQty": 211.098684
+        },
+        {
+          "product": "P0015",
+          "store": "S002",
+          "category": "Clothing",
+          "avgInventory": 477.261842,
+          "avgDailyDemand": 107.436842,
+          "daysOfInventory": 4.442255,
+          "status": "Low Stock",
+          "suggestedReorderQty": 274.796053
+        },
+        {
+          "product": "P0016",
+          "store": "S002",
+          "category": "Clothing",
+          "avgInventory": 227.484211,
+          "avgDailyDemand": 108.327632,
+          "daysOfInventory": 2.099965,
+          "status": "Critical",
+          "suggestedReorderQty": 530.809211
+        },
+        {
+          "product": "P0017",
+          "store": "S002",
+          "category": "Toys",
+          "avgInventory": 362.201316,
+          "avgDailyDemand": 92.927632,
+          "daysOfInventory": 3.897671,
+          "status": "Low Stock",
+          "suggestedReorderQty": 288.292105
+        },
+        {
+          "product": "P0018",
+          "store": "S002",
+          "category": "Clothing",
+          "avgInventory": 127.907895,
+          "avgDailyDemand": 106.369737,
+          "daysOfInventory": 1.202484,
+          "status": "Critical",
+          "suggestedReorderQty": 616.680263
+        },
+        {
+          "product": "P0019",
+          "store": "S002",
+          "category": "Clothing",
+          "avgInventory": 489.365789,
+          "avgDailyDemand": 109.071053,
+          "daysOfInventory": 4.48667,
+          "status": "Low Stock",
+          "suggestedReorderQty": 274.131579
+        },
+        {
+          "product": "P0020",
+          "store": "S002",
+          "category": "Furniture",
+          "avgInventory": 268.618421,
+          "avgDailyDemand": 73.294737,
+          "daysOfInventory": 3.664907,
+          "status": "Low Stock",
+          "suggestedReorderQty": 244.444737
+        }
+      ]
+    },
+    {
+      "id": "category-groceries",
+      "filters": {
+        "category": "Groceries"
+      },
+      "kpis": {
+        "unitsSold": 3127335,
+        "demand": 3677684,
+        "unitsOrdered": 3138243,
+        "avgInventory": 360.31477,
+        "fulfillmentRate": 85.035446,
+        "tradingDays": 760,
+        "dailyRows": 30400
+      },
+      "statusCounts": {
+        "Critical": 16,
+        "Low Stock": 24,
+        "Healthy": 0,
+        "Overstock Candidate": 0,
+        "No Demand": 0
+      },
+      "totalPairs": 40,
+      "topCategory": {
+        "Category": "Groceries",
+        "Units Sold": 3127335.0
+      },
+      "topStore": {
+        "Store ID": "S005",
+        "Units Sold": 780381.0
+      }
+    },
+    {
+      "id": "product-p0007",
+      "filters": {
+        "product": "P0007"
+      },
+      "kpis": {
+        "unitsSold": 379709,
+        "demand": 437089,
+        "unitsOrdered": 382116,
+        "avgInventory": 466.86,
+        "fulfillmentRate": 86.872239,
+        "tradingDays": 760,
+        "dailyRows": 3800
+      },
+      "statusCounts": {
+        "Critical": 1,
+        "Low Stock": 4,
+        "Healthy": 0,
+        "Overstock Candidate": 0,
+        "No Demand": 0
+      },
+      "totalPairs": 5,
+      "topCategory": {
+        "Category": "Groceries",
+        "Units Sold": 318360.0
+      },
+      "topStore": {
+        "Store ID": "S003",
+        "Units Sold": 81001.0
+      },
+      "pairs": [
+        {
+          "product": "P0007",
+          "store": "S001",
+          "category": "Groceries",
+          "avgInventory": 584.481579,
+          "avgDailyDemand": 120.702632,
+          "daysOfInventory": 4.842327,
+          "status": "Low Stock",
+          "suggestedReorderQty": 260.436842
+        },
+        {
+          "product": "P0007",
+          "store": "S002",
+          "category": "Toys",
+          "avgInventory": 366.751316,
+          "avgDailyDemand": 91.865789,
+          "daysOfInventory": 3.992251,
+          "status": "Low Stock",
+          "suggestedReorderQty": 276.309211
+        },
+        {
+          "product": "P0007",
+          "store": "S003",
+          "category": "Groceries",
+          "avgInventory": 559.368421,
+          "avgDailyDemand": 122.180263,
+          "daysOfInventory": 4.578222,
+          "status": "Low Stock",
+          "suggestedReorderQty": 295.893421
+        },
+        {
+          "product": "P0007",
+          "store": "S004",
+          "category": "Groceries",
+          "avgInventory": 546.492105,
+          "avgDailyDemand": 120.277632,
+          "daysOfInventory": 4.543589,
+          "status": "Low Stock",
+          "suggestedReorderQty": 295.451316
+        },
+        {
+          "product": "P0007",
+          "store": "S005",
+          "category": "Groceries",
+          "avgInventory": 277.206579,
+          "avgDailyDemand": 120.090789,
+          "daysOfInventory": 2.308308,
+          "status": "Critical",
+          "suggestedReorderQty": 563.428947
+        }
+      ]
+    },
+    {
+      "id": "year-2023",
+      "filters": {
+        "from": "2023-01",
+        "to": "2023-12"
+      },
+      "kpis": {
+        "unitsSold": 3215226,
+        "demand": 3771293,
+        "unitsOrdered": 3203600,
+        "avgInventory": 300.010986,
+        "fulfillmentRate": 85.255269,
+        "tradingDays": 365,
+        "dailyRows": 36500
+      },
+      "statusCounts": {
+        "Critical": 50,
+        "Low Stock": 50,
+        "Healthy": 0,
+        "Overstock Candidate": 0,
+        "No Demand": 0
+      },
+      "totalPairs": 100,
+      "topCategory": {
+        "Category": "Groceries",
+        "Units Sold": 1499903.0
+      },
+      "topStore": {
+        "Store ID": "S002",
+        "Units Sold": 663072.0
+      }
+    },
+    {
+      "id": "empty-s004-toys-late-2023",
+      "filters": {
+        "from": "2023-07",
+        "to": "2024-01",
+        "store": "S004",
+        "category": "Toys"
+      },
+      "kpis": {
+        "unitsSold": 0,
+        "demand": 0,
+        "unitsOrdered": 0,
+        "avgInventory": null,
+        "fulfillmentRate": null,
+        "tradingDays": 0,
+        "dailyRows": 0
+      },
+      "statusCounts": {
+        "Critical": 0,
+        "Low Stock": 0,
+        "Healthy": 0,
+        "Overstock Candidate": 0,
+        "No Demand": 0
+      },
+      "totalPairs": 0,
+      "topCategory": null,
+      "topStore": null,
+      "pairs": []
+    },
+    {
+      "id": "s001-furniture",
+      "filters": {
+        "store": "S001",
+        "category": "Furniture"
+      },
+      "kpis": {
+        "unitsSold": 197820,
+        "demand": 223504,
+        "unitsOrdered": 198134,
+        "avgInventory": 256.127961,
+        "fulfillmentRate": 88.508483,
+        "tradingDays": 760,
+        "dailyRows": 3040
+      },
+      "statusCounts": {
+        "Critical": 2,
+        "Low Stock": 2,
+        "Healthy": 0,
+        "Overstock Candidate": 0,
+        "No Demand": 0
+      },
+      "totalPairs": 4,
+      "topCategory": {
+        "Category": "Furniture",
+        "Units Sold": 197820.0
+      },
+      "topStore": {
+        "Store ID": "S001",
+        "Units Sold": 197820.0
+      },
+      "pairs": [
+        {
+          "product": "P0010",
+          "store": "S001",
+          "category": "Furniture",
+          "avgInventory": 350.801316,
+          "avgDailyDemand": 72.717105,
+          "daysOfInventory": 4.824193,
+          "status": "Low Stock",
+          "suggestedReorderQty": 158.218421
+        },
+        {
+          "product": "P0011",
+          "store": "S001",
+          "category": "Furniture",
+          "avgInventory": 209.582895,
+          "avgDailyDemand": 74.253947,
+          "daysOfInventory": 2.822515,
+          "status": "Critical",
+          "suggestedReorderQty": 310.194737
+        },
+        {
+          "product": "P0019",
+          "store": "S001",
+          "category": "Furniture",
+          "avgInventory": 102.119737,
+          "avgDailyDemand": 73.480263,
+          "daysOfInventory": 1.389757,
+          "status": "Critical",
+          "suggestedReorderQty": 412.242105
+        },
+        {
+          "product": "P0020",
+          "store": "S001",
+          "category": "Furniture",
+          "avgInventory": 362.007895,
+          "avgDailyDemand": 73.632895,
+          "daysOfInventory": 4.916388,
+          "status": "Low Stock",
+          "suggestedReorderQty": 153.422368
+        }
+      ]
+    },
+    {
+      "id": "p0012-s005",
+      "filters": {
+        "store": "S005",
+        "product": "P0012"
+      },
+      "kpis": {
+        "unitsSold": 50074,
+        "demand": 56463,
+        "unitsOrdered": 50184,
+        "avgInventory": 378.903947,
+        "fulfillmentRate": 88.684625,
+        "tradingDays": 760,
+        "dailyRows": 760
+      },
+      "statusCounts": {
+        "Critical": 0,
+        "Low Stock": 1,
+        "Healthy": 0,
+        "Overstock Candidate": 0,
+        "No Demand": 0
+      },
+      "totalPairs": 1,
+      "topCategory": {
+        "Category": "Furniture",
+        "Units Sold": 50074.0
+      },
+      "topStore": {
+        "Store ID": "S005",
+        "Units Sold": 50074.0
+      },
+      "pairs": [
+        {
+          "product": "P0012",
+          "store": "S005",
+          "category": "Furniture",
+          "avgInventory": 378.903947,
+          "avgDailyDemand": 74.293421,
+          "daysOfInventory": 5.100101,
+          "status": "Low Stock",
+          "suggestedReorderQty": 141.15
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "retail-inventory-intelligence",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Single-page retail inventory analytics dashboard built on a synthetic retail dataset analysed with Python/Pandas.",
+  "scripts": {
+    "data": "python analysis/build_dashboard_data.py",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.2",
+    "vitest": "^5.0.3"
+  }
+}

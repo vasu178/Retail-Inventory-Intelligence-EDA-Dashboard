@@ -1,0 +1,364 @@
+.app {
+  display: grid;
+  grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+/* ---------------------------------------------------------------- sidebar */
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  height: 100vh;
+  padding: 18px 0 20px;
+  background: var(--bg-sidebar);
+  border-right: 1px solid var(--border);
+  z-index: 30;
+}
+
+.sidebar__brand {
+  display: grid;
+  place-items: center;
+}
+
+.brand {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 13px;
+  color: var(--accent);
+  background: linear-gradient(180deg, rgba(127, 179, 255, 0.2), rgba(127, 179, 255, 0.05));
+  border: 1px solid rgba(127, 179, 255, 0.24);
+}
+
+.sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.nav-item {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 14px;
+  background: transparent;
+  color: var(--text-tertiary);
+  transition: color var(--transition), background var(--transition);
+}
+
+.nav-item::before {
+  content: '';
+  position: absolute;
+  left: -16px;
+  top: 50%;
+  width: 3px;
+  height: 0;
+  border-radius: var(--radius-pill);
+  background: var(--accent);
+  transform: translateY(-50%);
+  transition: height var(--transition), opacity var(--transition);
+  opacity: 0;
+}
+
+.nav-item:hover {
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.nav-item.is-active {
+  color: var(--text);
+  background: var(--accent-tint);
+}
+
+.nav-item.is-active::before {
+  height: 20px;
+  opacity: 1;
+}
+
+.nav-item__label {
+  display: none;
+}
+
+.avatar {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: var(--text-tertiary);
+  background: #171c23;
+  border: 1px solid var(--border);
+}
+
+/* ---------------------------------------------------------------- main shell */
+
+.app__main {
+  min-width: 0;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+  padding: 18px 28px 16px;
+  background: rgba(11, 13, 16, 0.82);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.topbar__title {
+  font-size: 25px;
+  font-weight: 640;
+  letter-spacing: -0.02em;
+}
+
+.topbar__subtitle {
+  margin-top: 3px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.topbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dashboard {
+  display: grid;
+  gap: 22px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 28px 44px;
+}
+
+/* Grid children must be able to shrink: the wide data table scrolls internally
+   instead of pushing the whole page wider than the viewport. */
+.dashboard > *,
+.grid > *,
+.section,
+.card,
+.card__body,
+.table-scroll {
+  min-width: 0;
+}
+
+.section {
+  display: block;
+}
+
+.grid {
+  display: grid;
+  gap: 18px;
+}
+
+.grid--split {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.section-head {
+  scroll-margin-top: 96px;
+  margin-top: 8px;
+}
+
+.section-head__title {
+  font-size: 17px;
+  font-weight: 620;
+  letter-spacing: -0.01em;
+}
+
+.section-head__subtitle {
+  margin-top: 3px;
+  font-size: 12.5px;
+  color: var(--text-tertiary);
+}
+
+#overview,
+#products,
+#health,
+#stores {
+  scroll-margin-top: 96px;
+}
+
+/* ---------------------------------------------------------------- responsive */
+
+@media (max-width: 1280px) {
+  .kpi-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  .app {
+    grid-template-columns: var(--sidebar-width-tablet) minmax(0, 1fr);
+  }
+
+  .topbar {
+    padding: 16px 22px 14px;
+  }
+
+  .dashboard {
+    padding: 18px 22px 40px;
+  }
+
+  .topbar__title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 900px) {
+  .kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .grid--split {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .app {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    padding: 10px 14px;
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .sidebar__brand,
+  .sidebar__nav,
+  .sidebar__footer {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .sidebar__nav {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .sidebar__nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sidebar__footer {
+    margin-top: 0;
+  }
+
+  .brand {
+    width: 34px;
+    height: 34px;
+    border-radius: 11px;
+  }
+
+  .nav-item {
+    width: auto;
+    height: 38px;
+    grid-auto-flow: column;
+    gap: 7px;
+    padding: 0 11px;
+    border-radius: 11px;
+    font-size: 12.5px;
+  }
+
+  .nav-item::before {
+    display: none;
+  }
+
+  .nav-item__label {
+    display: inline;
+  }
+
+  .avatar {
+    display: none;
+  }
+
+  .topbar {
+    position: static;
+    padding: 16px 16px 12px;
+    backdrop-filter: none;
+    background: none;
+    border-bottom: 0;
+  }
+
+  .topbar__title {
+    font-size: 20px;
+  }
+
+  .topbar__subtitle {
+    font-size: 12.5px;
+  }
+
+  .dashboard {
+    padding: 0 16px 36px;
+    gap: 18px;
+  }
+
+  .kpi-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .section-head {
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 560px) {
+  /* icon-only navigation once labels would not fit */
+  .nav-item__label {
+    display: none;
+  }
+
+  .nav-item {
+    padding: 0 9px;
+  }
+}
+
+@media (max-width: 420px) {
+  .topbar__actions .chip {
+    display: none;
+  }
+}
